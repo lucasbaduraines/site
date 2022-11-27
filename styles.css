@@ -1,0 +1,180 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: darkgrey;
+}
+
+.header {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    border-color: black;
+    border-style: inset;
+}
+
+.header h1 {
+    font-size: 400%;
+    margin: 0;
+    padding: 0;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    margin-right: 1%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header ul li {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin: 0px 5px;
+    text-decoration: none;
+    font-size: 230%;
+    background-color: blue;
+    border-color: black;
+    border-style:outset;
+    border-radius: 10%;
+}
+
+.header ul li:hover {
+    background-color: red;
+}
+
+.header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.subHeader {
+    text-align: center;
+    margin: 1% 20%;
+    padding: 0px;
+    color: white;
+    background-color: green;
+    border-color: black;
+    border-style: outset;
+
+    font-size: 600%;
+}
+
+img {  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    
+}
+
+
+.topic{
+    margin: 5% 5%;
+    padding: 0px;
+    color: black;
+}
+
+.topic h1{
+    position: relative;
+    width: 38.3%;
+    height: 20%;
+    font-size: 400%;
+    background-color: cyan;
+    border-color: black;
+    border-style: outset;
+}
+
+.topic ul{
+    float: right;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    font-size: 250%;
+    border-color: black;
+    margin: 1% 2%;
+    border-style:inset;
+}
+
+.topic ul a li{
+    border-color: black;
+    border-style:inset;
+    background-color: lime;
+}
+
+.topic ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.topic ul a li:hover{
+    background-color: red;
+}
+
+
+.project{
+    margin: 5% 20%;
+    padding: 2% 0%;
+    color: white;
+    border: 5px inset black;
+
+}
+
+.project h1{
+    margin: 0% 5%;
+    width: 50%;
+    background-color: blue;
+    font-size: 400%;
+    border: 5px inset black;
+    text-align: center;
+}
+
+.project h2{
+    margin: 1% 75%;
+    width: 20%;
+    background-color: green;
+    font-size: 300%;
+    border: 5px inset black;
+    text-align: center;
+}
+.project ul{
+    margin: 1% 78%;
+    width: 17%;
+    padding: 0px;
+    background-color: lime;
+    font-size: 250%;
+    border: 5px inset black;
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.project ul li{
+    padding: 0px;
+    border: 1px inset black;
+    border-style:inset;
+}
+
+.project a h3{
+    margin: 0% 5%;
+    width: 50%;
+    background-color: grey;
+    font-size: 400%;
+    border: 5px inset black;
+    text-align: center;
+}
+
+.project a{
+    text-decoration: none;
+    color: white;
+}
+
+.project a h3:hover{
+    text-decoration: none;
+    color: gray;
+    background-color: white;
+}
