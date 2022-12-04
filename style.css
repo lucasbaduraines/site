@@ -1,0 +1,50 @@
+@font-face {
+  font-family: win95;
+  src: url("/W95FA.otf") format("opentype");
+}
+
+body{
+  background: url("/HAPPY.png") no-repeat left center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: win95;
+}
+
+.apps{
+  width: 95%;
+  height: 200px;
+  /* border: 3px inset black; */
+}
+
+.apps div{
+  line-height: 1.5;
+  display: inline-flex;
+  font-size: 2v;
+  border:  2px inset blue;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  transition: transform .1s;
+}
+
+.apps div:hover{
+  transform: scale(1.1) translateY(-20px);
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+.bar {
+  position: absolute;
+  height: 30px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #c7c0c7;
+}
